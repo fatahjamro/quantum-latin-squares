@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber quantum-latin-squares"] 0 "quantum-latin-squares.bcf" "quantum-latin-squares.bbl" "quantum-latin-squares" 1686612014 -1
+["biber quantum-latin-squares"] 0 "quantum-latin-squares.bcf" "quantum-latin-squares.bbl" "quantum-latin-squares" 1686612631 -1
   "./quantum-latin-squares.bib" 1686588939 2151 02401ade2af2f559cecbbc77fae76cd8 ""
-  "quantum-latin-squares.bcf" 1686612013 107401 a2febd1b6d65263be4c2cb8a383ee664 "pdflatex"
+  "quantum-latin-squares.bcf" 1686612631 107401 a2febd1b6d65263be4c2cb8a383ee664 "pdflatex"
   (generated)
   "quantum-latin-squares.bbl"
   "quantum-latin-squares.blg"
   (rewritten before read)
-["pdflatex"] 1686612013 "/Users/fatah/repo/quantum-latin-squares/quantum-latin-squares.tex" "quantum-latin-squares.pdf" "quantum-latin-squares" 1686612014 0
-  "/Users/fatah/repo/quantum-latin-squares/quantum-latin-squares.tex" 1686612012 3993 75bb74de79f189f5d7214f37d0693213 ""
+["pdflatex"] 1686612630 "/Users/fatah/repo/quantum-latin-squares/quantum-latin-squares.tex" "quantum-latin-squares.pdf" "quantum-latin-squares" 1686612631 0
+  "/Users/fatah/repo/quantum-latin-squares/quantum-latin-squares.tex" 1686612630 4207 6888bff243e78ee8e8c9dcda2554ce84 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -84,10 +84,10 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1674830253 4623355 58034c3eb7ddf7eacc726a83d01e26d2 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1674830291 7877895 225141d016f9a1b3261004f71d9fb498 ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "quantum-latin-squares.aux" 1686612013 1103 d022c194042c28066c640360676310fb "pdflatex"
+  "quantum-latin-squares.aux" 1686612631 1103 d022c194042c28066c640360676310fb "pdflatex"
   "quantum-latin-squares.bbl" 1686609026 3367 7560edd461c562179cc82951fee89290 "biber quantum-latin-squares"
-  "quantum-latin-squares.run.xml" 1686612013 2435 17b3716f2e760a3672e8ee789434b823 "pdflatex"
-  "quantum-latin-squares.tex" 1686612012 3993 75bb74de79f189f5d7214f37d0693213 ""
+  "quantum-latin-squares.run.xml" 1686612631 2435 17b3716f2e760a3672e8ee789434b823 "pdflatex"
+  "quantum-latin-squares.tex" 1686612630 4207 6888bff243e78ee8e8c9dcda2554ce84 ""
   (generated)
   "quantum-latin-squares.aux"
   "quantum-latin-squares.bcf"
