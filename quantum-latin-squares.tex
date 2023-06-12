@@ -1,0 +1,113 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage{biblatex}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{braket}
+\addbibresource{quantum-latin-squares.bib}
+\title{Quantum Latin Squares Overview}
+\author{Abdul Fatah Jamro,\\  {Ian Mcloughlin}
+}
+\begin{document}
+\maketitle
+
+\section{Introduction}
+Latin squares are the mathematical objects that have apllications in different areas 
+like combinatorial designs, scheduling,games such as sudoku puzzels and error correcting codes.
+Quantum Latin squares are objects from combinatorics that are a quantum analogue
+to Latin squares. \\\textbf{Latin squares} are defined as an n-by-n array of elements of the 
+Hilbert space Cn, such that every row and every column is an orthonormal basis. 
+They interact with a finite-dimensional commutative C*-algebra by the linear maps
+being unitary. They have applications in quantum error correction, quantum key 
+distribution, quantum state determination, and quantum pseudotelepathy. ~\cite{Musto2019-vm}
+
+
+\subsection{Error correcting codes}
+Codes can be constructed with various ways.The idea to construct codes with latin squares
+is not recent. Binary data is the strings of $0's$ and $1's$. Error correcting codes 
+add some extra digits for detection and correction of errors ~\cite{QECC-QLS} 
+In the 1960s and 70s Latin squares found use in producing error correcting codes
+in classical information theory. We are going to build latin squares' analogy to
+quantum information theory in field of quantum error correction (QEC).
+
+\subsection{Latin Square}
+A latin square of order $q$ is a $q$ x $q$ array whose entries are from a set of q distinct 
+element such that every element is contained exactly once in each row and each column.
+
+\subsection{Orthogonality}
+Latin squares A = $(a_{ij})$ and B = $(b_{ij})$ of order $q$ are said to be mutallay orthogonal
+if the $q^2$ ordered pairs $(a_{ij}, b_{ij}), i,j = 1,2,3,...,n$ are all distinct. 
+\begin{center}
+\begin{math}
+\begin{bmatrix}
+  a & b & c\\
+  b & c & a\\
+  c & a & b
+\end{bmatrix}
+\end{math}
+\noindent and
+\begin{math}
+\begin{bmatrix}
+  a & b & c\\
+  c & a & b\\
+  b & c & a
+\end{bmatrix}
+\end{math} \\
+\end{center}
+superimposing two orthogonal latin squares will give order pairs as bellow
+\begin{center}
+$(a,a) (b,b) (c,c)$\\ $(b,c) (c,a) (a,b)$\\ $(c,b) (a,c) (b,a)$ \\
+\end{center}
+\section{Quantum latin squares, Orthonormal basis}
+\newcommand{\C}{\mathbb{C}}
+\textbf{definition} A quantum latin square (QLS) of order $n$ is an $n$ -by-$n$ array of elements of the
+Hilbert space \( \C^4 \), such that every row and every column is an orthonormal basis.
+Bellow is the QLS described in terms of computational basis 
+elements $\{ \ket{0}, \ket{1}, \ket{2}, \ket{3} \}$.
+\begin{center}
+\begin{tabular}{||c|c|c|c||}
+  \hline
+  $\ket{0}$ & $\ket{1}$ & $\ket{2}$ & $\ket{3}$ \\
+  \hline
+  $\frac{1}{\sqrt{2}}\ket{1}$ & $\ket{0}$ & $\ket{2}$ & $\ket{3}$\\
+  \hline
+  $\ket{2}$ & $\ket{3}$ & $\ket{1}$ & $\ket{0}$\\
+  \hline
+  $\ket{0}$ & $\ket{2}$ & $\ket{3}$ & $\ket{1}$\\ 
+  \hline
+\end{tabular}
+\end{center}
+
+A classical Latin square of order n is an n-by-n array of integers in the range 
+$\{0,...,n-1\}$ such that every row and column contains each number exactly once.
+By interpreting a number  
+$ k \epsilon \{0,...,n - 1\}$ as a computational basis element $\ket{K_i} \epsilon C_n$,
+we can turn an array of numbers into an array of Hilbert space elements:~\cite{musto2016quantum}
+
+\begin{center}
+\begin{tabular}{||c|c|c|c||} 
+   \hline
+   3 & 1 & 0 & 2 \\
+   \hline
+   1 & 0 & 2 & 3\\
+   \hline
+   2 & 3 & 1 & 0\\
+   \hline
+   0 & 2 & 3 & 1\\ 
+   \hline
+ \end{tabular} $\rightarrow$
+\noindent
+\begin{tabular}{||c|c|c|c||}
+  \hline
+  $\ket{3}$ & $\ket{1}$ & $\ket{0}$ & $\ket{2}$ \\
+  \hline
+  $\ket{1}$ & $\ket{0}$ & $\ket{2}$ & $\ket{3}$\\
+  \hline
+  $\ket{2}$ & $\ket{3}$ & $\ket{1}$ & $\ket{0}$\\
+  \hline
+  $\ket{0}$ & $\ket{2}$ & $\ket{3}$ & $\ket{1}$\\ 
+  \hline
+\end{tabular}
+\end{center}
+\printbibliography
+\end{document}
+
